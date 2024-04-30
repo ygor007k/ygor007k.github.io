@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-4">Lista de Tarefas</h1>
+        <div class="input-group mb-3">
+            <input type="text" id="nova-tarefa" class="form-control" placeholder="Digite uma nova tarefa">
+            <div class="input-group-append">
+                <button class="btn btn-primary" type="button" onclick="adicionarTarefa()">Adicionar Tarefa</button>
+            </div>
+        </div>
+        <ul id="lista-tarefas" class="list-group">
+            <!-- Tarefas serão adicionadas aqui -->
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
